@@ -1,7 +1,7 @@
 function UserProfile() {
   const name = "John Doe";
   const bio = "Full-stack developer passionate about creating user-friendly applications.";
-  const profileImage = "https://tr.rbxcdn.com/180DAY-9488f65dd2464f168dc77db157449a1/420/420/Hat/Webp/noFilter";
+  const profileImage = "https://www.svgrepo.com/show/69154/man-silhouette.svg";
   
   return (
     <div style={{ maxWidth: '400px', margin: '20px auto', padding: '24px', borderRadius: '12px', boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)', backgroundColor: 'white', fontFamily: 'Arial, sans-serif', textAlign: 'center' }}>

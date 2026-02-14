@@ -1,7 +1,7 @@
-function UserProfile() {
-  const name = "John Doe";
-  const bio = "Full-stack developer passionate about creating user-friendly applications.";
-  const profileImage = "https://www.svgrepo.com/show/69154/man-silhouette.svg";
+function ContactCard() {
+  const name = "Linda King";
+  const bio = "Content creater and Marketing/Advertisement Coordinator.";
+  const profileImage = "https://i.fbcd.co/products/original/750-f1be954a9abff5b0695edae06ad82720943ddba6322b2d6c1644bda75a431cd6.jpg";
   
   return (
     <div style={{ maxWidth: '400px', margin: '20px auto', padding: '24px', borderRadius: '12px', boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)', backgroundColor: 'white', fontFamily: 'Arial, sans-serif', textAlign: 'center' }}>
@@ -12,4 +12,4 @@ function UserProfile() {
   );
 }
 
-export default UserProfile;
+export default ContactCard;
